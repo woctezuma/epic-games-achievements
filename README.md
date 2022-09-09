@@ -14,6 +14,9 @@ pip install -r requirements.txt
 ## Usage
 
 First, download the `sandboxId` associated with every `pageSlug`, via [`epic-games-ratings`][epic-games-ratings].
+```
+data/sandbox_ids.json
+```
 
 Then, to retrieve the achievements associated with every `sandboxId`, run:
 ```bash
