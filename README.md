@@ -28,6 +28,10 @@ Finally, to export trimmed results to JSON and CSV, run:
 python export_results.py
 ```
 
+## Results
+
+A ranking of games sorted by number of achievers is available [here][ranking-url].
+
 <!-- Definitions -->
 
 [img-cover]: <https://github.com/woctezuma/epic-games-achievements/wiki/img/cover.png>
@@ -35,3 +39,4 @@ python export_results.py
 [epic-games-ratings]: <https://github.com/woctezuma/epic-games-ratings>
 [colab-notebook]: <https://colab.research.google.com/github/woctezuma/epic-games-achievements/blob/colab/epic_games_achievements.ipynb>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
+[ranking-url]: <data/egs_achievements.csv>
