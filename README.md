@@ -23,6 +23,11 @@ Then, to retrieve the achievements associated with every `sandboxId`, run:
 python download_achievements.py
 ```
 
+Finally, to export trimmed results to JSON and CSV, run:
+```bash
+python export_results.py
+```
+
 <!-- Definitions -->
 
 [img-cover]: <https://github.com/woctezuma/epic-games-achievements/wiki/img/cover.png>
