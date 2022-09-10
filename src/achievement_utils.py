@@ -22,6 +22,10 @@ def compute_max_unlock_percentage(achievement_data):
     return rarity
 
 
+def get_platinum_rarity(achievement_data):
+    return achievement_data['platinumRarity']['percent']
+
+
 def extract_stats_about_achievements(achievement_data, verbose=True):
     base_achievement_sets = get_base_achievement_sets(achievement_data)
     if verbose and len(base_achievement_sets) > 1:
@@ -29,5 +33,6 @@ def extract_stats_about_achievements(achievement_data, verbose=True):
 
     achievement = base_achievement_sets[0]
     achievement['rarity'] = compute_max_unlock_percentage(achievement_data)
+    achievement['platinumRarity'] = get_platinum_rarity(achievement_data)
 
     return achievement
