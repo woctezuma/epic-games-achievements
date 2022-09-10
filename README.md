@@ -14,6 +14,11 @@ pip install -r requirements.txt
 ## Usage
 
 First, download the `sandboxId` associated with every `pageSlug`, via [`epic-games-ratings`][epic-games-ratings].
+```bash
+python download_store_products.py
+python download_sandbox_ids.py
+```
+The output is stored in:
 ```
 data/sandbox_ids.json
 ```
