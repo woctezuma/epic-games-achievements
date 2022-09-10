@@ -76,6 +76,9 @@ for a total of 67 achievements (1500 XP) for the whole package, versus 50 achiev
 There are also cases for which achievements are planned, being implemented, or the studio tried but gave up, which
 leads to weird situations.
 
+5) the 100% unlock rate for an achievement (["Out of bed"][supraland-achievements]) of the game "Supraland" is not a bug.
+This is an achievement obtained right at the start of the game.
+
 ## References
 
 - [`MixV2/EpicResearch`][egs-api-unofficial-doc]
@@ -90,6 +93,7 @@ leads to weird situations.
 [python-download-url]: <https://www.python.org/downloads/>
 [alan-wake-achievements]: <https://store.epicgames.com/achievements/alan-wake-remastered>
 [num-xp-per-game]: <https://dev.epicgames.com/docs/epic-games-store/tech-features-config/epic-achievements/using-epic-achievements#xp-requirements-for-epic-games-store-achievements>
+[supraland-achievements]: <https://store.steampowered.com/news/app/813630/view/3047216285009553891>
 [egs-api-unofficial-doc]: <https://github.com/MixV2/EpicResearch>
 [egs-api-graphql]: <https://github.com/ToutinRoger/EpicGraphQL>
 [epic-games-ratings]: <https://github.com/woctezuma/epic-games-ratings>
