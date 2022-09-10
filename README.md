@@ -17,6 +17,11 @@ First, download the `sandboxId` associated with every `pageSlug`, via [`epic-gam
 ```
 data/sandbox_ids.json
 ```
+NB: to distinguish base editions of games from DLC, it is recommended (but not mandatory) to keep a copy of:
+```
+data/store_data_0.json
+data/store_data_1.json
+```
 
 Then, to retrieve the achievements associated with every `sandboxId`, run:
 ```bash
