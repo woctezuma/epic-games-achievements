@@ -19,6 +19,11 @@ def get_data_folder():
     return folder_name
 
 
+def get_store_data_fname(iter_no):
+    folder_name = get_data_folder()
+    return f"{folder_name}/store_data_{iter_no}.json"
+
+
 def get_sandbox_ids_fname():
     folder_name = get_data_folder()
     return f"{folder_name}/sandbox_ids.json"
