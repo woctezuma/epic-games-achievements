@@ -51,6 +51,17 @@ Alternatively:
 
 A ranking of games sorted by number of achievers is available [here][ranking-url].
 
+Here is a description of the headers:
+- `Game slug` is the ID of the game which appears in the Epic Games store URL,
+- `#players (via EOS overlay)` is the number of players who have played with Epic Online Services (EOS) in the background,
+- `#completionists` is the number of players who have acquired all the achievements for the game,
+- `% of completionists` is the percentage of players who are completionists, also described as "Platinum" on consoles,
+- `#players (estimate)` is an estimate of the number of players based on stats about completionists,
+- `#achievements` is the number of achievements of the game,
+- `Max % for an achievement` is the highest unlock rate among all the achievements of the game,
+- `Total XP` is the total number of experience points (XP) provided by game achievements ; it is expected to be 1000 XP.
+
+
 ## References
 
 - [`MixV2/EpicResearch`][egs-api-unofficial-doc]
