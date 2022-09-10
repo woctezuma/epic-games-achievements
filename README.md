@@ -61,6 +61,20 @@ Here is a description of the headers:
 - `Max % for an achievement` is the highest unlock rate among all the achievements of the game,
 - `Total XP` is the total number of experience points (XP) provided by game achievements ; it is expected to be 1000 XP.
 
+### Discussion
+
+1) some games did not have achievements on release day, or had issues with the EOS overlay,
+so the number of players obtained via EOS should be considered as a lower-bound of the true number of players.
+
+2) the percentage of completionists is rounded by Epic using one significant figure,
+so our estimate of the number of players via Platinum stats should be used with caution.
+
+3) the total XP is not equal to 1000 XP for Alan Wake Remastered due to the exceptional addition of DLC achievements,
+for a total of 67 achievements (1500 XP) for the whole package, versus 50 achievements (1000 XP) for the base game.
+
+4) there are bugs. For instance, Aeon Must Die has a negative number of completionists.
+There are also cases for which achievements are planned, being implemented, or the studio tried but gave up, which
+leads to weird situations.
 
 ## References
 
