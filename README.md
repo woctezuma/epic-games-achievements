@@ -2,6 +2,8 @@
 
 This repository contains Python code to data-mine achievements on the Epic Games Store (EGS).
 
+![Ranking of games sorted by number of achievers][img-cover]
+
 ## Requirements
 
 -   Install the latest version of [Python 3.X][python-download-url].
