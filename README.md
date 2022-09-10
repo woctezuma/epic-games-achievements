@@ -59,7 +59,7 @@ Here is a description of the headers:
 - `#players (estimate)` is an estimate of the number of players based on stats about completionists,
 - `#achievements` is the number of achievements of the game,
 - `Max % for an achievement` is the highest unlock rate among all the achievements of the game,
-- `Total XP` is the total number of experience points (XP) provided by game achievements ; 1000 XP are expected.
+- `Total XP` is the total number of experience points (XP) provided by game achievements ; [1000 XP are expected][num-xp-per-game].
 
 ### Discussion
 
@@ -69,7 +69,7 @@ so the number of players obtained via EOS should be considered as a lower-bound 
 2) the percentage of completionists is rounded by Epic using one significant figure,
 so our estimate of the number of players via Platinum stats should be used with caution.
 
-3) the total XP is not equal to 1000 XP for Alan Wake Remastered due to the exceptional addition of DLC achievements,
+3) the total XP is not equal to 1000 XP for [Alan Wake Remastered][alan-wake-achievements] due to the exceptional addition of DLC achievements,
 for a total of 67 achievements (1500 XP) for the whole package, versus 50 achievements (1000 XP) for the base game.
 
 4) there are bugs. For instance, Aeon Must Die has a negative number of completionists.
@@ -88,6 +88,8 @@ leads to weird situations.
 [codacy]: <https://www.codacy.com/gh/woctezuma/epic-games-achievements>
 [codacy-image]: <https://api.codacy.com/project/badge/Grade/e4e82c4abb6a41ef929600b668d0ebd6>
 [python-download-url]: <https://www.python.org/downloads/>
+[alan-wake-achievements]: <https://store.epicgames.com/achievements/alan-wake-remastered>
+[num-xp-per-game]: <https://dev.epicgames.com/docs/epic-games-store/tech-features-config/epic-achievements/using-epic-achievements#xp-requirements-for-epic-games-store-achievements>
 [egs-api-unofficial-doc]: <https://github.com/MixV2/EpicResearch>
 [egs-api-graphql]: <https://github.com/ToutinRoger/EpicGraphQL>
 [epic-games-ratings]: <https://github.com/woctezuma/epic-games-ratings>
