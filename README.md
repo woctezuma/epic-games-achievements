@@ -49,7 +49,7 @@ Alternatively:
 
 ## Results
 
-A ranking of games sorted by number of achievers is available [here][ranking-url].
+A ranking of games sorted by number of players is available [here][ranking-url].
 
 Here is a description of the headers:
 - `Game slug` is the ID of the game which appears in the Epic Games store URL,
