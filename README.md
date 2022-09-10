@@ -42,6 +42,11 @@ Finally, to export trimmed results to JSON and CSV, run:
 python export_results.py
 ```
 
+Alternatively:
+
+-   Run [`epic_games_achievements.ipynb`][colab-notebook]
+[![Open In Colab][colab-badge]][colab-notebook]
+
 ## Results
 
 A ranking of games sorted by number of achievers is available [here][ranking-url].
