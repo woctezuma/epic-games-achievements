@@ -22,6 +22,7 @@ def aggregate_ranking(sandbox_ids_dict, achievements):
                 "num_achievements": achievement["totalAchievements"],
                 "total_xp": achievement["totalXP"],
                 "rarity": achievement['rarity'],
+                "platinum_rarity": achievement['platinumRarity'],
             }
         )
 
@@ -35,11 +36,11 @@ def sort_ranking(ranking):
 def export_ranking_to_csv(ranking):
     with open(get_ranking_fname(), "w", encoding="utf8") as f:
         f.write(
-            "Game slug, Number of achievers,Number of completionists, Number of achievements, Total XP, Max unlock percentage\n"
+            "Game slug, Number of achievers,Number of completionists, Number of achievements, Total XP, Max unlock percentage, Platinum completion percentage\n"
         )
         for entry in sort_ranking(ranking):
             f.write(
-                f"{entry['slug']},{entry['num_progressed']},{entry['num_completed']},{entry['num_achievements']},{entry['total_xp']},{entry['rarity']}\n"
+                f"{entry['slug']},{entry['num_progressed']},{entry['num_completed']},{entry['num_achievements']},{entry['total_xp']},{entry['rarity']},{entry['platinum_rarity']}\n"
             )
 
     return
