@@ -1,5 +1,6 @@
 from src.achievement_utils import extract_stats_about_achievements
 from src.disk_utils import get_ranking_fname
+from src.player_utils import estimate_num_players
 
 
 def aggregate_ranking(sandbox_ids_dict, achievements):
@@ -23,6 +24,8 @@ def aggregate_ranking(sandbox_ids_dict, achievements):
                 "total_xp": achievement["totalXP"],
                 "rarity": achievement['rarity'],
                 "platinum_rarity": achievement['platinumRarity'],
+                "estimated_num_players": estimate_num_players(achievement["numCompleted"],
+                                                              achievement['platinumRarity'])
             }
         )
 
@@ -36,11 +39,11 @@ def sort_ranking(ranking):
 def export_ranking_to_csv(ranking):
     with open(get_ranking_fname(), "w", encoding="utf8") as f:
         f.write(
-            "Game slug, Number of achievers,Number of completionists, Number of achievements, Total XP, Max unlock percentage, Platinum completion percentage\n"
+            "Game slug, Number of achievers,Number of completionists, Number of achievements, Total XP, Max unlock percentage, Platinum completion percentage, Estimated number of players\n"
         )
         for entry in sort_ranking(ranking):
             f.write(
-                f"{entry['slug']},{entry['num_progressed']},{entry['num_completed']},{entry['num_achievements']},{entry['total_xp']},{entry['rarity']},{entry['platinum_rarity']}\n"
+                f"{entry['slug']},{entry['num_progressed']},{entry['num_completed']},{entry['num_achievements']},{entry['total_xp']},{entry['rarity']},{entry['platinum_rarity']},{entry['estimated_num_players']}\n"
             )
 
     return
