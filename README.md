@@ -46,12 +46,20 @@ python export_results.py
 
 A ranking of games sorted by number of achievers is available [here][ranking-url].
 
+## References
+
+- [`MixV2/EpicResearch`][egs-api-unofficial-doc]
+- [`ToutinRoger/EpicGraphQL`][egs-api-graphql]
+- [`woctezuma/epic-games-ratings`][epic-games-ratings]
+
 <!-- Definitions -->
 
 [img-cover]: <https://github.com/woctezuma/epic-games-achievements/wiki/img/cover.png>
 [codacy]: <https://www.codacy.com/gh/woctezuma/epic-games-achievements>
 [codacy-image]: <https://api.codacy.com/project/badge/Grade/e4e82c4abb6a41ef929600b668d0ebd6>
 [python-download-url]: <https://www.python.org/downloads/>
+[egs-api-unofficial-doc]: <https://github.com/MixV2/EpicResearch>
+[egs-api-graphql]: <https://github.com/ToutinRoger/EpicGraphQL>
 [epic-games-ratings]: <https://github.com/woctezuma/epic-games-ratings>
 [colab-notebook]: <https://colab.research.google.com/github/woctezuma/epic-games-achievements/blob/colab/epic_games_achievements.ipynb>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
