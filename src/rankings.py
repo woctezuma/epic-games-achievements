@@ -39,11 +39,11 @@ def sort_ranking(ranking):
 def export_ranking_to_csv(ranking):
     with open(get_ranking_fname(), "w", encoding="utf8") as f:
         f.write(
-            "Game slug, #players (via EOS overlay), #completionists, #achievements, Total XP, Max % for an achievement, % of completionists, #players (estimate)\n"
+            "Game slug, #players (via EOS overlay), #completionists, % of completionists, #players (estimate), #achievements, Max % for an achievement, Total XP\n"
         )
         for entry in sort_ranking(ranking):
             f.write(
-                f"{entry['slug']},{entry['num_progressed']},{entry['num_completed']},{entry['num_achievements']},{entry['total_xp']},{entry['rarity']},{entry['platinum_rarity']},{entry['estimated_num_players']}\n"
+                f"{entry['slug']},{entry['num_progressed']},{entry['num_completed']},{entry['platinum_rarity']},{entry['estimated_num_players']},{entry['num_achievements']},{entry['rarity']},{entry['total_xp']}\n"
             )
 
     return
