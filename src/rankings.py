@@ -1,3 +1,4 @@
+from src.achievement_utils import extract_stats_about_achievements
 from src.disk_utils import get_ranking_fname
 
 
@@ -6,9 +7,11 @@ def aggregate_ranking(sandbox_ids_dict, achievements):
 
     for slug, sandbox_id in sandbox_ids_dict.items():
         try:
-            achievement = achievements[sandbox_id]["achievementSets"][0]
+            achievement_data = achievements[sandbox_id]
         except KeyError:
             continue
+
+        achievement = extract_stats_about_achievements(achievement_data)
 
         ranking.append(
             {
