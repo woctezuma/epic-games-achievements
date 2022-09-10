@@ -1,5 +1,7 @@
 # Epic Games Achievements
 
+[![Code Quality][codacy-image]][codacy]
+
 This repository contains Python code to data-mine achievements on the Epic Games Store (EGS).
 
 ![Ranking of games sorted by number of achievers][img-cover]
@@ -47,6 +49,8 @@ A ranking of games sorted by number of achievers is available [here][ranking-url
 <!-- Definitions -->
 
 [img-cover]: <https://github.com/woctezuma/epic-games-achievements/wiki/img/cover.png>
+[codacy]: <https://www.codacy.com/gh/woctezuma/epic-games-achievements>
+[codacy-image]: <https://api.codacy.com/project/badge/Grade/e4e82c4abb6a41ef929600b668d0ebd6>
 [python-download-url]: <https://www.python.org/downloads/>
 [epic-games-ratings]: <https://github.com/woctezuma/epic-games-ratings>
 [colab-notebook]: <https://colab.research.google.com/github/woctezuma/epic-games-achievements/blob/colab/epic_games_achievements.ipynb>
