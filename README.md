@@ -84,6 +84,7 @@ This is an achievement obtained right at the start of the game.
 - [`MixV2/EpicResearch`][egs-api-unofficial-doc]
 - [`ToutinRoger/EpicGraphQL`][egs-api-graphql]
 - [`woctezuma/epic-games-ratings`][epic-games-ratings]
+- [`woctezuma/epic-games-player-estimates`][epic-games-player-estimates]
 
 <!-- Definitions -->
 
@@ -97,6 +98,7 @@ This is an achievement obtained right at the start of the game.
 [egs-api-unofficial-doc]: <https://github.com/MixV2/EpicResearch>
 [egs-api-graphql]: <https://github.com/ToutinRoger/EpicGraphQL>
 [epic-games-ratings]: <https://github.com/woctezuma/epic-games-ratings>
+[epic-games-player-estimates]: <https://github.com/woctezuma/epic-games-player-estimates>
 [colab-notebook]: <https://colab.research.google.com/github/woctezuma/epic-games-achievements/blob/colab/epic_games_achievements.ipynb>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
 [ranking-url]: <data/egs_achievements.csv>
