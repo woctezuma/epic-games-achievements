@@ -69,7 +69,7 @@ so the number of players obtained via EOS should be considered as a lower-bound 
 2) the percentage of completionists is rounded by Epic using one significant figure,
 so our estimate of the number of players via Platinum stats should be used with caution.
 
-3) the total XP is not equal to 1000 XP for [Alan Wake Remastered][alan-wake-achievements] due to the exceptional addition of DLC achievements,
+3) the total XP is not equal to 1000 XP for [Alan Wake Remastered][alan-wake-achievements] due to exceptional DLC achievements,
 for a total of 67 achievements (1500 XP) for the whole package, versus 50 achievements (1000 XP) for the base game.
 
 4) there are bugs. For instance, Aeon Must Die has a negative number of completionists.
