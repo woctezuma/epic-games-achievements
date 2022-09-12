@@ -69,14 +69,14 @@ so the number of players obtained via EOS should be considered as a lower-bound 
 2) the percentage of completionists is rounded by Epic using one significant figure,
 so our estimate of the number of players via Platinum stats should be used with caution.
 
-3) the total XP is not equal to 1000 XP for [Alan Wake Remastered][alan-wake-achievements] due to exceptional DLC achievements,
+3) there are bugs. For instance, Aeon Must Die has a negative number of completionists.
+
+4) if the total XP is zero, then achievements are planned, being implemented, or the studio tried but gave up.
+
+5) if the highest unlock rate is 0%, then achievements are most likely broken for this game.
+
+6) the total XP is not equal to 1000 XP for [Alan Wake Remastered][alan-wake-achievements] due to exceptional DLC achievements,
 for a total of 67 achievements (1500 XP) for the whole package, versus 50 achievements (1000 XP) for the base game.
-
-4) there are bugs. For instance, Aeon Must Die has a negative number of completionists.
-
-5) if the total XP is zero, then achievements are planned, being implemented, or the studio tried but gave up.
-
-6) if the highest unlock rate is 0%, then achievements are most likely broken for this game.
 
 7) the 100% unlock rate for an achievement (["Out of bed"][supraland-achievements]) of the game "Supraland" is not a bug: this achievement is obtained right at the start of the game.
 
