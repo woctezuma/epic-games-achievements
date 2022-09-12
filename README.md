@@ -73,11 +73,12 @@ so our estimate of the number of players via Platinum stats should be used with 
 for a total of 67 achievements (1500 XP) for the whole package, versus 50 achievements (1000 XP) for the base game.
 
 4) there are bugs. For instance, Aeon Must Die has a negative number of completionists.
-There are also cases for which achievements are planned, being implemented, or the studio tried but gave up, which
-leads to weird situations.
 
-5) the 100% unlock rate for an achievement (["Out of bed"][supraland-achievements]) of the game "Supraland" is not a bug.
-This is an achievement obtained right at the start of the game.
+5) if the total XP is zero, then achievements are planned, being implemented, or the studio tried but gave up.
+
+6) if the highest unlock rate is 0%, then achievements are most likely broken for this game.
+
+7) the 100% unlock rate for an achievement (["Out of bed"][supraland-achievements]) of the game "Supraland" is not a bug: this achievement is obtained right at the start of the game.
 
 ## References
 
