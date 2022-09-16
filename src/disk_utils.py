@@ -45,3 +45,8 @@ def get_trimmed_achievements_fname():
 def get_ranking_fname():
     folder_name = get_data_folder()
     return f"{folder_name}/egs_achievements.csv"
+
+
+def get_tracker_export_fname():
+    folder_name = get_data_folder()
+    return f"{folder_name}/sandbox_ids_for_tracker.json"
