@@ -2,9 +2,12 @@ import json
 import pathlib
 
 
-def save_json(data, filename):
+def save_json(data, filename, prettify=False):
     with open(filename, "w", encoding="utf8") as f:
-        json.dump(data, f)
+        if prettify:
+            json.dump(data, f, indent=4, sort_keys=True)
+        else:
+            json.dump(data, f)
 
 
 def load_json(filename):
