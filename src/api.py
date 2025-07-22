@@ -1,10 +1,10 @@
 import requests
 
-DEFAULT_SUBDOMAIN: str = "store"
+DEFAULT_SUBDOMAIN: str = "graphql"
 
 
 def get_graphql_api_url(subdomain=DEFAULT_SUBDOMAIN):
-    return f"https://{subdomain}.epicgames.com/graphql"
+    return f"https://{subdomain}.epicgames.com/ue/graphql"
 
 
 def send_post_request_to_api(json_data, subdomain=DEFAULT_SUBDOMAIN, verbose=True):
